@@ -1,0 +1,11 @@
+# Core dependencies
+PyYAML>=6.0
+
+# pyweixin dependencies (auto-installed by install.bat)
+pyautogui>=0.9.50
+pywinauto>=0.6.8
+emoji>=1.0.0
+
+# Note: pyweixin must be installed separately from pychat project
+# Run: pip install -e /path/to/pywechat
+# Or copy pywechat folder to ./lib/pywechat and run: pip install -e ./lib/pywechat
